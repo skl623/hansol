@@ -1,0 +1,41 @@
+@charset "utf-8";
+/*모든 태그*/
+* {outline: none;
+   -webkit-tap-highlight-color:rgba(0,0,0,0);
+}
+
+
+body,h1,h2,h3,h4,h5,h6,p,dd,dl {
+    margin: 0;
+    
+}
+
+body {
+    min-width: 1200px;
+    color: #333;
+    font-family: 'NotoSans',sans-serif; /*sans-serif 폰트가 각진 고딕체*/
+    font-weight: 300;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+.inner {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.cf::after {
+    content: "";
+    display: block;
+    clear: both; /*float 해제*/
+}
+
